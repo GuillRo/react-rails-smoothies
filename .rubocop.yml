@@ -1,6 +1,10 @@
 Style/Encoding:
   Enabled: false
 
+# Remove the rule about [:a, :b] => i%(a, b)
+Style/SymbolArray:
+  Enabled: false
+
 # Commonly used screens these days easily fit more than 80 characters.
 Metrics/LineLength:
   Max: 120
